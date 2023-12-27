@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       start: "Nov 2022",
       end: "Present",
       description:
-        "Worked on a website with a large user base, maintained and added new features, replaced servers, and started migration to Docker, Single Page Applications (SPA), and more. Technologies: JavaScript · MySQL · Vue.JS · PHP · Perl ·  Linux · Docker ",
+        "Worked on a website with a large user base, maintained and added new features, replaced servers, and started migration to Docker, Single Page Applications (SPA), and more. Technologies: JavaScript · MySQL · Vue · PHP · Perl ·  Linux · Docker ",
     },
     {
       company: "Adecco",
