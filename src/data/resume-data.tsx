@@ -88,7 +88,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Firmware Engineer",
       // logo: JojoMobileLogo,
-      start: "Apr 2014",
+      start: "Apr 2017",
       end: "Jul 2019",
       description:
         "Developed firmware for digital cameras, led the GUI development team, and worked on various projects including an object detection camera, a music recorder, a night vision camera, and more. Technologies: C · Python",
