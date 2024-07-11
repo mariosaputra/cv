@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Osaka",
   about: "Web Developer | iOS Developer",
   summary:
-    "Hi, I'm a Programmer with experience in various roles, from Firmware Engineering to Web and Mobile Development. Right now, I'm working as a full-time Web Developer and also doing my own projects in my free time. I'm open to collaborating on projects or freelance work. Feel free to get in touch!",
+    "Hi, I'm a programmer with experience in various roles, from firmware engineering to web and mobile development. Currently, I'm a full-time web developer and also work on my own projects in my free time. I'm open to collaborations or freelance work. Feel free to get in touch!",
   avatarUrl:
     "https://res.cloudinary.com/mariosaputra-me/image/upload/v1703666346/MS_kg34cv_xuzj7e.jpg",
   personalWebsiteUrl: "https://marioapps.com",
@@ -54,12 +54,23 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Waseda University",
-      degree: "Master Degree in Computer Science and Communication Engineering",
+      degree: "Master's Degree in Computer Science and Communication Engineering",
       start: "Sep 2014",
       end: "Sep 2016",
     },
   ],
   work: [
+    {
+      company: "Self-Employed",
+      link: "https://marioapps.com/",
+      badges: [],
+      title: "iOS Developer",
+      // logo: ParabolLogo,
+      start: "July 2023",
+      end: "Present",
+      description:
+        "As a solo developer, I built and released several apps on the App Store. Some of my apps were featured on Product Hunt's Product of the Day and achieved hundreds of downloads per month. Technologies: Swift, SwiftUI, SwiftData, CloudKit, UIKit.",
+    },
     {
       company: "Future Spirits",
       link: "https://www.future-s.com/",
@@ -69,7 +80,7 @@ export const RESUME_DATA = {
       start: "Nov 2022",
       end: "Present",
       description:
-        "Worked on a website with a large user base, maintained and added new features, replaced servers, and started migration to Docker, Single Page Applications (SPA), and more. Technologies: JavaScript · MySQL · Vue · PHP · Perl ·  Linux · Docker ",
+        "Maintained and added new features to a high-traffic website, replaced servers, and initiated migration to Docker and Single Page Applications (SPA). Technologies: JavaScript, MySQL, Vue, PHP, Perl, Linux, Docker.",
     },
     {
       company: "Adecco",
@@ -80,7 +91,7 @@ export const RESUME_DATA = {
       start: "Aug 2019",
       end: "Oct 2022",
       description:
-        "Worked on-site at a client's office as a dispatched employee, developing a 3D Robot Simulation Software for Windows. Technologies: .NET Framework · C# · C++",
+        "Developed a 3D robot simulation software for Windows on-site at a client's office. Technologies: .NET Framework, C#, C++.",
     },
     {
       company: "Xacti",
@@ -91,7 +102,7 @@ export const RESUME_DATA = {
       start: "Apr 2017",
       end: "Jul 2019",
       description:
-        "Developed firmware for digital cameras, led the GUI development team, and worked on various projects including an object detection camera, a music recorder, a night vision camera, and more. Technologies: C · Python",
+        "Developed firmware for digital cameras, led the GUI development team, and worked on projects such as object detection cameras, music recorders, and night vision cameras. Technologies: C, Python.",
     },
   ],
   skills: [
@@ -109,51 +120,31 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "PixAsset.com",
-      techStack: ["Side Project", "Vue3", "Express.js", "OpenAI", "Firebase"],
+      title: "Plant Identifier AI",
+      techStack: ["Side Project", "iOS", "SwiftUI", "SwiftData", "OpenAI"],
       description:
-        "Web app to generate stunning pixel art assets for your projects",
+        "An iOS app to identify plants from pictures. Ranked #2 on Product Hunt Daily Launch with 800+ downloads in the first month.",
       link: {
-        label: "pixasset.com",
-        href: "https://pixasset.com/",
+        label: "Plant Identifier AI",
+        href: "",
       },
     },
     {
-      title: "Macro Calculator AI",
-      techStack: ["Side Project", "iOS", "SwiftUI", "Flask", "OpenAI"],
-      description:
-        "iOS app to get total macro percentages and calories for any food, powered by AI",
+      title: "Streaks66 - Habit Tracker AI",
+      techStack: ["Side Project", "iOS", "SwiftUI", "SwiftData", "CloudKit"],
+      description: "An iOS app to build habits within 66 days, integrated with an AI habit coach.",
       link: {
-        label: "Macro Calculator AI App",
-        href: "https://apps.apple.com/us/app/macro-calculator-ai/id6469041577",
+        label: "Habit Tracker App",
+        href: "",
       },
     },
     {
-      title: "MediLogger",
-      techStack: ["Side Project", "iOS", "SwiftUI", "CloudKit"],
-      description: "Easy medical data logging for iOS",
+      title: "Japanese Vocabularies",
+      techStack: ["Side Project", "iOS", "SwiftUI", "SwiftData", "CloudKit"],
+      description: "An iOS app with over 8000 Japanese vocabularies and examples to help users learn and track their progress.",
       link: {
-        label: "MediLogger App",
-        href: "https://apps.apple.com/us/app/medical-logger-medilogger/id6466779296",
-      },
-    },
-    {
-      title: "Moving Calories Calculator",
-      techStack: ["Side Project", "iOS", "SwiftUI"],
-      description:
-        "Highly accurate calculator to count calories burned from various activities",
-      link: {
-        label: "Moving Calories Calculator App",
-        href: "https://apps.apple.com/us/app/moving-calories-calculator/id6456799256",
-      },
-    },
-    {
-      title: "QuickPassGen",
-      techStack: ["Side Project", "iOS", "SwiftUI"],
-      description: "iOS app to generate random password",
-      link: {
-        label: "QuickPassGen App",
-        href: "https://apps.apple.com/us/app/quickpassgen/id6451387153",
+        label: "Japanese Learning App",
+        href: "",
       },
     },
   ],
