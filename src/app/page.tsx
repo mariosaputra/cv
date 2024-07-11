@@ -34,7 +34,7 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
-            <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground">
+            <div className="flex-col gap-x-1 font-mono text-sm text-muted-foreground flex">
               {RESUME_DATA.contact.email ? (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
                   <span className="underline">{RESUME_DATA.contact.email}</span>
