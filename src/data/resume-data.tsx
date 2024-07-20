@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Osaka",
   about: "Web Developer | iOS Developer",
   summary:
-    "Hi, I'm a programmer with experience in various roles, from firmware engineering to web and mobile development. Currently, I'm a full-time web developer and also work on my own projects in my free time. I'm open to collaborations or freelance work. Feel free to get in touch!",
+    "Hi, I'm a programmer with experience in various roles, from firmware engineering to web and mobile development. Currently, I'm a full-time web developer and also work on my own projects in my free time.",
   avatarUrl:
     "https://res.cloudinary.com/mariosaputra-me/image/upload/v1703666346/MS_kg34cv_xuzj7e.jpg",
   personalWebsiteUrl: "https://marioapps.com",
@@ -59,11 +59,26 @@ export const RESUME_DATA = {
       end: "Sep 2016",
     },
   ],
+  certification: [
+    {
+      name: "AWS Certified Cloud Practitioner",
+      issuer: "Amazon Web Service (AWS)",
+      issuedDate: "June 2024",
+      expireDate: "June 2027"
+    },
+    {
+      name: "Japanese Language Proficiency Test N2 Level",
+      issuer: "The Japan Foundation",
+      issuedDate: "December 2019",
+      expireDate: ""
+    }
+
+  ],
   work: [
     {
       company: "Self-Employed",
       link: "https://marioapps.com/",
-      badges: [],
+      badges: ["Side Project"],
       title: "iOS Developer",
       // logo: ParabolLogo,
       start: "July 2023",
@@ -123,7 +138,7 @@ export const RESUME_DATA = {
       title: "Plant Identifier AI",
       techStack: ["Side Project", "iOS", "SwiftUI", "SwiftData", "OpenAI"],
       description:
-        "An iOS app to identify plants from pictures. Ranked #2 on Product Hunt Daily Launch with 800+ downloads in the first month.",
+        "An iOS app to identify plants from pictures. Ranked #2 on Product Hunt Daily Launch with 1000+ downloads in the first month.",
       link: {
         label: "Plant Identifier AI",
         href: "",
